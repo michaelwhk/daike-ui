@@ -32,6 +32,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/daike.css": {
 		"aP": 1,
 		"bl": 0,
@@ -55,13 +68,82 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/normalize-min.css": {
+	"\/assets\/css\/example.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/example.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/font-and-text.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/normalize-min-min.css",
+		"oAP": "\/assets\/css\/font-and-text-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/font-and-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/font-and-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/global-tag.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/global-tag-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/global-tag.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/global-tag.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/grid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/grid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/layout.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/layout-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -82,6 +164,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/prism-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/table.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/table-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -118,827 +210,17 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/styles\/agate.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/agate-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/androidstudio.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/androidstudio-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/arduino-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/arduino-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/arta.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/arta-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/ascetic.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/ascetic-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-cave-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-cave-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-cave-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-cave-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-dune-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-dune-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-dune-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-dune-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-estuary-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-estuary-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-estuary-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-estuary-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-forest-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-forest-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-forest-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-forest-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-heath-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-heath-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-heath-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-heath-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-lakeside-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-lakeside-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-lakeside-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-lakeside-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-plateau-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-plateau-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-plateau-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-plateau-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-savanna-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-savanna-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-savanna-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-savanna-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-seaside-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-seaside-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-seaside-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-seaside-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-sulphurpool-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-sulphurpool-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atelier-sulphurpool-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atelier-sulphurpool-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atom-one-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atom-one-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/atom-one-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/atom-one-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/brown-paper.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/brown-paper-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/brown-papersq.png": {
-		"ft": 32768,
-		"iS": 18198,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/brown-papersq.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/styles\/codepen-embed.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/codepen-embed-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/color-brewer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/color-brewer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/darcula.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/darcula-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/darkula.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/darkula-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/default.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/default-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/docco.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/docco-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/dracula.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/dracula-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/far.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/far-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/foundation.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/foundation-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/github-gist.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/github-gist-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/github.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/github-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/googlecode.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/googlecode-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/grayscale.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/grayscale-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/gruvbox-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/gruvbox-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/gruvbox-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/gruvbox-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/hopscotch.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/hopscotch-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/hybrid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/hybrid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/idea.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/idea-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/ir-black.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/ir-black-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/kimbie.dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/kimbie.dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/kimbie.light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/kimbie.light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/magula.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/magula-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/mono-blue.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/mono-blue-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/monokai-sublime.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/monokai-sublime-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/monokai.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/monokai-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/obsidian.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/obsidian-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/ocean.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/ocean-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/paraiso-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/paraiso-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/paraiso-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/paraiso-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/pojoaque.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/pojoaque-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/pojoaque.jpg": {
-		"ft": 16384,
-		"iS": 1186,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/pojoaque.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/styles\/purebasic.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/purebasic-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/qtcreator_dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/qtcreator_dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/qtcreator_light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/qtcreator_light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/railscasts.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/railscasts-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/rainbow.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/rainbow-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/routeros.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/routeros-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/school-book.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/school-book-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/school-book.png": {
-		"ft": 32768,
-		"iS": 486,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/school-book.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/styles\/solarized-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/solarized-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/solarized-light.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/solarized-light-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/sunburst.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/sunburst-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/tomorrow-night-blue.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/tomorrow-night-blue-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/tomorrow-night-bright.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/tomorrow-night-bright-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/tomorrow-night-eighties.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/tomorrow-night-eighties-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/tomorrow-night.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/tomorrow-night-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/tomorrow.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/tomorrow-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/vs.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/vs-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/vs2015.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/vs2015-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/xcode.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/xcode-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/xt256.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/xt256-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets\/styles\/zenburn.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/zenburn-min.css",
-		"oF": 0,
-		"oS": 3
+	"\/font-text.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/font-text.html",
+		"oF": 0
+		},
+	"\/grid.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grid.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -963,6 +245,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/test.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.html",
+		"oF": 0
 		}
 	},
 "hooks": [

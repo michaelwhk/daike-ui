@@ -1,0 +1,58 @@
+.title {
+  font-size: 3rem;
+  padding: 2rem 0; }
+
+.smaill.title {
+  font-size: 2.5rem;
+  padding: 1.5rem 0; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-style: italic; }
+
+h1.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0; }
+
+h2.header {
+  padding-top: .6rem;
+  padding-bottom: .6rem; }
+
+h3.header {
+  padding-top: .4rem;
+  margin-bottom: .4rem; }
+
+h4.header {
+  padding-top: .2rem;
+  margin-bottom: .2rem; }
+
+.subtitle {
+  color: #959595; }
+
+h1.header + .subtitle {
+  font-size: 1.05rem; }
+
+h2.header + .subtitle {
+  font-size: 1rem; }
+
+h3.header + .subtitle {
+  font-size: .8rem; }
+
+h4.header + .subtitle {
+  font-size: .7rem; }
+
+a {
+  color: #4a4a4a;
+  text-decoration: none; }
+
+a:hover {
+  color: #1678c2; }
+
+.example {
+  padding: 1.5rem 0; }
+
+.example .button {
+  margin-bottom: 0.75rem; }

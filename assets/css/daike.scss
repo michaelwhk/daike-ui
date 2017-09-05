@@ -1,26 +1,17 @@
+@import "grid.css";
 @import "variables.scss";
 @import "buttons.scss";
+@import "layout.css";
+@import "font-and-text.scss";
+@import "global-tag.scss";
+@import "table.css";
+@import "normalize.css";
+@import "example.scss";
+@import "color.scss";
 
-
-
-
-html, body {
-  height:  100vh;
+.main.wrapper {
+  padding: 15px 50px;
 }
-
-body {
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-p, div, span {
-  font-size: 16px;
-}
-
-section {
- padding-bottom: 2rem;
-}
-
 
 // ordered list and unordered list
 .list {
@@ -115,128 +106,15 @@ ul.list li[value]:before {
 .border {
   border: 1px solid #aaa;
   border-radius: 4px;
-  &.no-radius {
-    border-radius: 0px;
-  }
   &.with-radius {
     border-radius: 4px;
   }
 }
 
-// blue hex color code
-.dark-blue {
-  color: $dark-blue;
+.no-radius {
+  border: 0;
+  border-radius: 0px;
 }
-.medium-blue {
-  color: $medium-blue;
-}
-.royal-blue {
-  color: $royal-blue;
-}
-.sky-blue {
-  color: $sky-blue;
-}
-
-// gray hex color code
-.black {
-  color: $black;
-}
-.gray {
-  color: $gray;
-}
-.dark-gray {
-  color: $dark-gray;
-}
-.light-gray {
-  color: $light-gray; 
-}
-
-// div, span, p {
-//   font-family: 'Open Sans', sans-serif;
-// }
-// .header {
-//   padding-left: 15px;
-// }
-.title {
-  font-size: 3rem;
-  padding: 2rem 0;
-}
-
-.smaill.title {
-  font-size: 2.5rem;
-  padding: 1.5rem 0;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-h1.header {
-  padding-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-h2.header {
-  padding-top: .6rem;
-  margin-bottom: .6rem;
-}
-
-h3.header {
-  padding-top: .4rem;
-  margin-bottom: .4rem;
-}
-
-h4.header {
-  padding-top: .2rem;
-  margin-bottom: .2rem;
-}
-
-.subtitle {
-  color: $dark-gray;
-}
-
-h1.header + .subtitle {
-  font-size: 1.05rem;
-}
-
-h2.header + .subtitle {
-  font-size: 1rem;
-}
-
-h3.header + .subtitle {
-  font-size: .8rem;
-}
-
-h4.header + .subtitle {
-  font-size: .7rem;
-}
-
-
-a {
-  color: $gray;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $dark-blue;
-}
-
-.example {
-  padding: 1.5rem 0;
-}
-.example .button {
-  margin-bottom: 0.75rem;
-}
-
-
-
-
-
-
 
 // shaodow
 // box shadows
@@ -248,8 +126,6 @@ a:hover {
 .with-text-shadow {
   text-shadow: .1rem .1rem .05rem $dark-gray;
 }
-
-
 
 
 .divider {
@@ -287,3 +163,6 @@ a:hover {
     background-color: #fff;
   }
 }
+
+
+
