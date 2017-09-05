@@ -1,0 +1,396 @@
+@import "variables.scss";
+// button
+.button, .button .button {
+    box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+    font-size: 1.2rem;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #e0e1e2 none;
+    color: rgba(0,0,0,.6);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+//red button
+.red.button, .red.buttons .button {
+  background-color: #db2828;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.red.button:hover, .red.buttons .button:hover {
+  background-color: #d01919;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+// orange button
+.orange.button, .orange.buttons .button {
+  background-color: #f2711c;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.orange.button:hover, .orange.buttons .button:hover {
+  background-color: #f26202;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+// yellow button
+.yellow.button, .yellow.buttons .button {
+  background-color: #fbbd08;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.yellow.button:hover, .yellow.buttons .button:hover {
+  background-color: #eaae00;
+  color: #fff;
+  text-shadow: none;
+}
+
+// olive button
+.olive.button, .olive.buttons .button {
+  background-color: #b5cc18;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.olive.button:hover, .olive.buttons .button:hover {
+  background-color: #a7bd0d;
+  color: #fff;
+  text-shadow: none;
+}
+
+// green button
+.green.button, .green.buttons .button {
+  background-color: #21ba45;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.green.button:hover, .green.buttons .button:hover {
+  background-color: #16ab39;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+// teal button
+.teal.button, .teal.buttons .button {
+  background-color: #00b5ad;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.teal.button:hover, .teal.buttons .button:hover {
+  background-color: #009c95;
+  color: #fff;
+  text-shadow: none;
+}
+
+// blue button
+.blue.button, .blue.buttons .button {
+  background-color: $dark-blue;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.blue.button:hover, .blue.buttons .button:hover {
+  background-color: $dark-blue;
+  color: #fff;
+  text-shadow: none;
+}
+
+// violet button
+.violet.button, .violet.buttons .button {
+  background-color: $violet;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.violet.button:hover, .violet.buttons .button:hover {
+  background-color: $dark-violet;
+  color: #fff;
+  text-shadow: none;
+}
+
+// pink button
+.pink.button, .pink.buttons .button {
+  background-color: $pink;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.pink.button:hover, .pink.buttons .button:hover {
+  background-color: $dark-pink;
+  color: #fff;
+  text-shadow: none;
+}
+
+// purple button
+.purple.button, .purple.buttons .button {
+  background-color: $purple;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.purple.button:hover, .purple.buttons .button:hover {
+  background-color: $dark-purple;
+  color: #fff;
+  text-shadow: none;
+}
+
+// brown button
+.brown.button, .brown.buttons .button {
+  background-color: $brown;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.brown.button:hover, .brown.buttons .button:hover {
+  background-color: $dark-brown;
+  color: #fff;
+  text-shadow: none;
+}
+
+// gray button
+.gray.button, .gray.buttons .button {
+  background-color: $btn-gray;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.gray.button:hover, .gray.buttons .button:hover {
+  background-color: $btn-dark-gray;
+  color: #fff;
+  text-shadow: none;
+}
+
+// black button
+.black.button, .black.buttons .button {
+  background-color: $btn-black;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+}
+
+.black.button:hover, .black.buttons .button:hover {
+  background-color: $dark-black;
+  color: #fff;
+  text-shadow: none;
+}
+
+// basic button 
+
+//red button
+.basic.red.button, .red.basic.buttons .button {
+  background-color: transparent;
+  color: $red;
+  box-shadow: 0 0 0 1px $red inset!important;
+
+}
+
+.basic.red.button:hover, .red.buttons .button:hover {
+  background-color: $dark-red;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+// orange button
+.basic.orange.button, .basic.orange.buttons .button {
+  background-color: transparent;
+  color: $orange;
+  box-shadow: 0 0 0 1px $orange inset!important;
+}
+
+.basic.orange.button:hover, .basic.orange.buttons .button:hover {
+  background-color: #f26202;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+// yellow button
+.basic.yellow.button, .basic.yellow.buttons .button {
+  background-color: transparent;
+  color: $yellow;
+  box-shadow: 0 0 0 1px $yellow inset!important;
+}
+
+.basic.yellow.button:hover, .basic.yellow.buttons .button:hover {
+  background-color: $yellow;
+  color: #fff;
+  text-shadow: none;
+}
+
+// olive button
+.basic.basic.olive.button, .basic.olive.buttons .button {
+  background-color: transparent;
+  color: $olive;
+  box-shadow: 0 0 0 1px $olive inset!important;
+}
+
+.basic.olive.button:hover, .basic.olive.buttons .button:hover {
+  background-color: #a7bd0d;
+  color: #fff;
+  text-shadow: none;
+}
+
+// green button
+.basic.basic.green.button, .basic.green.buttons .button {
+  background-color: transparent;
+  color: $green;
+  box-shadow: 0 0 0 1px $green inset!important;
+}
+
+.basic.green.button:hover, .basic.green.buttons .button:hover {
+  background-color: #16ab39;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+// teal button
+.basic.basic.teal.button, .basic.teal.buttons .button {
+  background-color: transparent;
+  color: $teal;
+  box-shadow: 0 0 0 1px $teal inset!important;
+}
+
+.basic.teal.button:hover, .basic.teal.buttons .button:hover {
+  background-color: #009c95;
+  color: #fff;
+  text-shadow: none;
+}
+
+// blue button
+.basic.basic.blue.button, .basic.blue.buttons .button {
+  background-color: transparent;
+  color: $blue;
+  box-shadow: 0 0 0 1px $blue inset!important;
+}
+
+.basic.blue.button:hover, .basic.blue.buttons .button:hover {
+  background-color: $dark-blue;
+  color: #fff;
+  text-shadow: none;
+}
+
+// violet button
+.basic.basic.violet.button, .basic.violet.buttons .button {
+  background-color: transparent;
+  color: $violet;
+  box-shadow: 0 0 0 1px $violet inset!important;
+}
+
+.basic.violet.button:hover, .basic.violet.buttons .button:hover {
+  background-color: $dark-violet;
+  color: #fff;
+  text-shadow: none;
+}
+
+// pink button
+.basic.basic.pink.button, .basic.pink.buttons .button {
+  background-color: transparent;
+  color: $pink;
+  box-shadow: 0 0 0 1px $pink inset!important;
+}
+
+.basic.pink.button:hover, .basic.pink.buttons .button:hover {
+  background-color: $dark-pink;
+  color: #fff;
+  text-shadow: none;
+}
+
+// purple button
+.basic.basic.purple.button, .basic.purple.buttons .button {
+  background-color: transparent;
+  color: $purple;
+  box-shadow: 0 0 0 1px $purple inset!important;
+}
+
+.basic.purple.button:hover, .basic.purple.buttons .button:hover {
+  background-color: $dark-purple;
+  color: #fff;
+  text-shadow: none;
+}
+
+// brown button
+.basic.basic.brown.button, .basic.brown.buttons .button {
+  background-color: transparent;
+  color: $brown;
+  box-shadow: 0 0 0 1px $brown inset!important;
+}
+
+.basic.brown.button:hover, .basic.brown.buttons .button:hover {
+  background-color: $dark-brown;
+  color: #fff;
+  text-shadow: none;
+}
+
+// gray button
+.basic.basic.gray.button, .basic.gray.buttons .button {
+  background-color: transparent;
+  color: $btn-gray;
+  box-shadow: 0 0 0 1px $btn-gray inset!important;
+}
+
+.basic.gray.button:hover, .basic.gray.buttons .button:hover {
+  background-color: $btn-dark-gray;
+  color: #fff;
+  text-shadow: none;
+}
+
+// black button
+.basic.basic.black.button, .basic.black.buttons .button {
+  background-color: transparent;
+  color: $btn-black;
+  box-shadow: 0 0 0 1px $btn-black inset!important;
+}
+
+.basic.black.button:hover, .basic.black.buttons .button:hover {
+  background-color: $dark-black;
+  color: #fff;
+  text-shadow: none;
+}

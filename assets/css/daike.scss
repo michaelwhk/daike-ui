@@ -1,0 +1,289 @@
+@import "variables.scss";
+@import "buttons.scss";
+
+
+
+
+html, body {
+  height:  100vh;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, div, span {
+  font-size: 16px;
+}
+
+section {
+ padding-bottom: 2rem;
+}
+
+
+// ordered list and unordered list
+.list {
+  font-size: 16px;
+  list-style-type: none;
+  margin: .2rem 1rem;
+  padding: 0 0;
+  & > li {
+    & > ol, ul {
+      margin: 0rem 0rem;
+      padding-left:  1rem;
+    }
+  }
+  & > .item, {
+    display: list-item;
+    table-layout: fixed;
+    list-style-type: none;
+    list-style-position: outside;
+    padding: .2rem 0;
+    line-height: 1.15;
+    & > .list {
+      margin: 0rem 0rem;
+      padding-left:  1rem;
+    }
+  }
+}
+
+.ordered.list, .ordered.list .list, ol.list, ol.list ol{
+    counter-reset: ordered;
+    margin-left: 1.25rem;
+    list-style-type: none;
+} 
+
+.ordered.list .list>.item:before, .ordered.list>.item:before, ol.list li:before, ol.list > li:before {
+  position: absolute;
+  top: auto;
+  left: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  margin-left: -1.25rem;
+  counter-increment: ordered;
+  content: counters(ordered, ".") ". ";
+  text-align: right;
+  color: $black;
+  vertical-align: middle;
+  opacity: .8;
+}
+
+.ordered.list >.item > .list > .item:before, ol.list >li>ol>li:before {
+  margin-left: -2rem;
+}
+
+.ordered.list .list>.item, .ordered.list>.item, ol.list li, ol.list > li {
+  list-style-type: none;
+  position: relative;
+}
+
+.list .list>.item, .list>.item, ol.list li, ul.list li {
+  display: list-item;
+  table-layout: fixed;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: .21428571em 0;
+  line-height: 1.14285714em;
+}
+
+ol.list li[value]:before {
+  content: attr(value);
+  margin-left: -1.25rem;
+}
+
+ul.list li[value]:before {
+  content: attr(value);
+  margin-left: -1.25rem;
+  padding-left: 1rem;
+  padding-right: .5rem;  
+}
+
+.wrapper {
+  padding: 15px;
+}
+
+.section {
+  width: 100%;
+  background-color: #a4a4a4;
+}
+
+//  border setting
+.border {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  &.no-radius {
+    border-radius: 0px;
+  }
+  &.with-radius {
+    border-radius: 4px;
+  }
+}
+
+// blue hex color code
+.dark-blue {
+  color: $dark-blue;
+}
+.medium-blue {
+  color: $medium-blue;
+}
+.royal-blue {
+  color: $royal-blue;
+}
+.sky-blue {
+  color: $sky-blue;
+}
+
+// gray hex color code
+.black {
+  color: $black;
+}
+.gray {
+  color: $gray;
+}
+.dark-gray {
+  color: $dark-gray;
+}
+.light-gray {
+  color: $light-gray; 
+}
+
+// div, span, p {
+//   font-family: 'Open Sans', sans-serif;
+// }
+// .header {
+//   padding-left: 15px;
+// }
+.title {
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+.smaill.title {
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1.header {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2.header {
+  padding-top: .6rem;
+  margin-bottom: .6rem;
+}
+
+h3.header {
+  padding-top: .4rem;
+  margin-bottom: .4rem;
+}
+
+h4.header {
+  padding-top: .2rem;
+  margin-bottom: .2rem;
+}
+
+.subtitle {
+  color: $dark-gray;
+}
+
+h1.header + .subtitle {
+  font-size: 1.05rem;
+}
+
+h2.header + .subtitle {
+  font-size: 1rem;
+}
+
+h3.header + .subtitle {
+  font-size: .8rem;
+}
+
+h4.header + .subtitle {
+  font-size: .7rem;
+}
+
+
+a {
+  color: $gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $dark-blue;
+}
+
+.example {
+  padding: 1.5rem 0;
+}
+.example .button {
+  margin-bottom: 0.75rem;
+}
+
+
+
+
+
+
+
+// shaodow
+// box shadows
+.with-bottom-shadow {
+  box-shadow: 0px 1px 0px 0px $dark-gray;
+}
+
+// text shadow
+.with-text-shadow {
+  text-shadow: .1rem .1rem .05rem $dark-gray;
+}
+
+
+
+
+.divider {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, $gray, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fff;
+  }
+}
