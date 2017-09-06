@@ -1,0 +1,6 @@
+## ignore Mac file
+.DS_Store
+
+
+## ignore complier config
+config.codekit3
